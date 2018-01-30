@@ -1,0 +1,36 @@
+body {
+  font-family:arial, sans-serif;
+  color: white;
+  background: #254662;
+  background: linear-gradient(0deg,#254662,#00bfff);
+  background-attachment: fixed;
+  padding:20px;
+  font-size:16px;
+  width:400px;
+  max-width:100%;
+}
+#logo {
+  display:block;
+  max-width:300px;
+  margin:0 auto;
+}
+#logo svg *,
+a.icon svg * {
+  fill: white;
+}
+h1 {
+  font-size: 20px;
+  margin:20px 0;
+}
+.text-center {
+  text-align:center;
+}
+a.icon {
+  display:inline-block;
+  height:30px;
+  width:30px;
+  margin:0 5px;
+}
+#container {
+  margin:10px 0;
+}
