@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "Presearch.org Start With Us",
-  "description": "Set Chrome's Homepage and New Tab page to Presearch.org",
+  "name": "Presearch.com Start With Us",
+  "description": "Set Chrome's Homepage and New Tab page to Presearch.com",
   "version": "1.0.1",
-  "homepage_url": "https://www.presearch.org/?utm_source=extcr",
+  "homepage_url": "https://www.presearch.com/?utm_source=extcr",
   "icons": {
       "16": "img/icon16.png",
       "48": "img/icon48.png",
@@ -16,7 +16,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.presearch.org/*"],
+      "matches": ["*://*.presearch.com/*"],
       "css": ["assets/popup-visibility.css"],
       "js": ["assets/popup-visibility.js"],
       "run_at": "document_start"
@@ -25,11 +25,11 @@
   "permissions": [
     "activeTab",
     "storage",
-    "*://*.presearch.org/*"
+    "*://*.presearch.com/*"
   ],
   "chrome_settings_overrides": {
-    "homepage": "https://www.presearch.org/?utm_source=extcr",
-    "startup_pages": ["https://www.presearch.org/?utm_source=extcr"]
+    "homepage": "https://www.presearch.com/?utm_source=extcr",
+    "startup_pages": ["https://www.presearch.com/?utm_source=extcr"]
   },
   "chrome_url_overrides" : {
      "newtab": "newtab.html"
