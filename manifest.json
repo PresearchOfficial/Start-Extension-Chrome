@@ -3,7 +3,7 @@
 
   "name": "Presearch.com Start With Us",
   "description": "Set Chrome's Homepage and New Tab page to Presearch.com",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "homepage_url": "https://www.presearch.com/?utm_source=extcr",
   "icons": {
       "16": "img/icon16.png",
@@ -23,13 +23,11 @@
     }
   ],
   "permissions": [
-    "activeTab",
-    "storage",
     "*://*.presearch.com/*"
   ],
   "chrome_settings_overrides": {
-    "homepage": "https://www.presearch.com/?utm_source=extcr",
-    "startup_pages": ["https://www.presearch.com/?utm_source=extcr"]
+    "homepage": "https://presearch.com/?utm_source=extcr",
+    "startup_pages": ["https://presearch.com/?utm_source=extcr"]
   },
   "chrome_url_overrides" : {
      "newtab": "newtab.html"
